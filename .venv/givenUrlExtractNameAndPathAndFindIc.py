@@ -28,7 +28,7 @@ def find(prefix, name, path):
 
 if __name__ == "__main__":
 
-    enlacesExcel = pd.read_excel('./enlacesArchivosGoogle.xlsx', usecols=[0], sheet_name="Img", nrows=884)
+    enlacesExcel = pd.read_excel('./enlacesDown2018.xlsx', usecols=[0], sheet_name="Sheet1", nrows=1528)
     lista_enlaces = enlacesExcel.iloc[:, 0].tolist()
     for i, enlace in enumerate(lista_enlaces):
         print(i)
