@@ -33,7 +33,8 @@ if __name__ == "__main__":
     #URL = "https://madridfilmoffice.com/business_category/productoras-de-eventos-y-espectaculos/"
     #URL = "https://madridfilmoffice.com/business_category/productoras-de-publicidad/"
     #URL = "https://madridfilmoffice.com/business_category/productoras-de-video/"
-    URL = "https://madridfilmoffice.com/business_category/reserva-de-espacio/"
+    #URL = "https://madridfilmoffice.com/business_category/reserva-de-espacio/"
+    URL = "https://madridfilmoffice.com/business_category/consultoras-audiovisuales/"
     headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"}
 
     r = requests.get(url=URL, headers=headers)
